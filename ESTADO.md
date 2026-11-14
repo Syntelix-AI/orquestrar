@@ -11,11 +11,18 @@ v0.1: skill + 8 evals. Pronta se vencer o baseline (mesmo modelo sem skill) em p
 - 2026-11-14 Núcleo só em texto, padrão Agent Skills; embalagens de plugin depois da v0.1.
 - 2026-11-14 Evals escritos por agente que não viu a skill (requisitos → testes).
 
+- 2026-11-14 Roteador de modelos por papel → nível + esforço, com tabela de modelos datada e separada (pedido do David).
+- 2026-11-14 Reparo v0.2: preparar de verdade o que é reversível antes de pedir aprovação.
+
 ## Feito
-- Skill v0.1 (SKILL.md + 6 referências), README, LICENSE.
+- Skill v0.2 (SKILL.md + 7 referências), README, LICENSE.
+- 9 evals; rodada às cegas: v0.1 6/8 (reprovada no caso 07), v0.2 8/9 (aprovada). Ver evals/runs/2026-11-14/RELATORIO.md.
 
 ## Próximo passo
-Rodar evals (com skill, baseline, Codex) e julgar às cegas.
+Criar o repositório privado vazio e fazer o push.
 
 ## Em aberto
 - Nome definitivo do projeto.
+- Rodada no Codex (bloqueada: delegação do T3 só funciona de dentro de uma thread do T3).
+- Repetições por caso e juiz de outra família de modelo.
+- Embalagens de plugin (Agent Plugins 1.0 e Claude Code).

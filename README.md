@@ -14,7 +14,7 @@ Perguntas simples continuam recebendo respostas simples.
 
 ## Status
 
-v0.1 experimental. Os evals em [`evals/`](evals/) medem a primeira resposta do agente contra o mesmo modelo sem a skill.
+v0.2 experimental: venceu o mesmo modelo sem a skill em 8 de 9 casos numa rodada às cegas ([relatório](evals/runs/2026-11-14/RELATORIO.md)). Os evals em [`evals/`](evals/) medem a primeira resposta do agente contra o mesmo modelo sem a skill.
 
 ## Instalação
 
@@ -36,6 +36,7 @@ skills/orquestrar/
     topologia.md           que forma de trabalho escolher
     contexto.md            o que cada parte precisa saber; estado do projeto
     verificacao.md         classes V1–V4
+    modelos.md             roteador: papel → nível de modelo e esforço
     artefatos.md           formatos por uso e recibo
 evals/                     casos, régua e resultados
 ```

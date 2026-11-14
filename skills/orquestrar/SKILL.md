@@ -32,6 +32,7 @@ Regras para perguntar:
 - **Cada pergunta traz uma resposta padrão**: "se não souber, eu assumo X". A pessoa pode só dizer "pode seguir".
 - Não pergunte o que dá para descobrir sozinho (testando, pesquisando, lendo o arquivo).
 - Se o pedido já é claro, **não pergunte**: diga o que vai assumir e comece.
+- Se dá para adiantar sem risco (ler o arquivo, montar um rascunho), **adiante primeiro e pergunte em cima do concreto**. "Montei a lista de 12 atrasados e o texto abaixo; tiro alguém?" é mais fácil de responder que três perguntas no vazio.
 - Quando a pessoa não sabe dizer o que quer, mostre um rascunho curto cedo. Reagir é mais fácil que especificar.
 
 Detalhes e exemplos em [`references/intencao.md`](references/intencao.md).
@@ -52,6 +53,10 @@ Descubra o que você realmente tem **testando, não supondo**: liste suas ferram
 
 A mesma tarefa recebe uma forma diferente em cada nível. Nunca prometa o que o nível não entrega. Como reconhecer cada nível em ambientes comuns: [`references/ambiente.md`](references/ambiente.md).
 
+### Modelo
+
+Saiba quem está conduzindo: que modelo você é (rápido, equilibrado ou máximo) e se o ambiente deixa escolher modelo e esforço para cada parte. Um condutor rápido manda decisões difíceis para cima; um condutor máximo manda volume para baixo. Ver [`references/modelos.md`](references/modelos.md).
+
 ### Topologia
 
 Escolha pela **natureza e pelo objetivo** da tarefa, não pelo que parece mais sofisticado:
@@ -65,6 +70,8 @@ Escolha pela **natureza e pelo objetivo** da tarefa, não pelo que parece mais s
 | Produzir e revisar em loop | há critério claro para melhorar |
 | Com a pessoa, etapa por etapa | o gosto ou o julgamento dela decide |
 | Modelo menor com conselheiro | trabalho volumoso e simples, com dúvidas pontuais |
+
+Cada parte do trabalho recebe também um **nível de modelo e um esforço** pelo papel que cumpre: coleta e extração no nível rápido, redação e código delimitado no equilibrado, decisão ambígua e revisão de alto risco no máximo. Tabela em [`references/modelos.md`](references/modelos.md).
 
 O objetivo muda a forma: **mais gates** quando o erro é caro; **paralelo** quando a pressa importa; **especialistas** quando a tarefa cruza áreas; **etapas com a pessoa** quando ela precisa se reconhecer no resultado. Tabela completa e exemplos: [`references/topologia.md`](references/topologia.md).
 
@@ -81,7 +88,7 @@ Antes de executar algo maior que uma resposta, mostre à pessoa em poucas linhas
 - **A menor forma que resolve.** Comece simples; adicione partes só quando uma necessidade concreta aparecer.
 - **Pacotes autossuficientes.** Quem recebe uma parte (subagente, outra sessão, a própria pessoa) recebe: o resultado esperado, as fontes, o limite do que pode mexer, o critério de pronto e quando parar. Ninguém deveria precisar ler a conversa inteira.
 - **No máximo dois escritores ao mesmo tempo**, cada um em arquivos ou seções separados.
-- **Autoridade.** Enviar, publicar, protocolar, pagar, assinar, apagar, mexer em conta ou em dados de terceiros: **prepare e pare**. Mostre exatamente o que vai acontecer e onde, e espere um "pode" explícito. Isso vale mesmo que o ambiente permita fazer sozinho.
+- **Autoridade.** Enviar, publicar, protocolar, pagar, assinar, apagar, mexer em conta ou em dados de terceiros: **prepare e pare**. Preparar é fazer de verdade tudo o que é reversível (ler os dados, montar a lista, escrever o rascunho) e mostrar o resultado concreto: quem vai receber, o texto, onde vai acontecer. Depois espere um "pode" explícito. Descrever o processo não é preparar. Isso vale mesmo que o ambiente permita fazer sozinho.
 - Se algo falhar, descubra **por quê** antes de repetir. Falha de ferramenta não se resolve com modelo mais forte; resultado fraco depois de uma correção pede outra abordagem, não a terceira tentativa igual.
 
 ## 4. Verificação

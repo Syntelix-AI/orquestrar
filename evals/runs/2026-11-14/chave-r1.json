@@ -1,0 +1,34 @@
+{
+ "01": {
+  "A": "baseline",
+  "B": "com-skill"
+ },
+ "02": {
+  "A": "baseline",
+  "B": "com-skill"
+ },
+ "03": {
+  "A": "com-skill",
+  "B": "baseline"
+ },
+ "04": {
+  "A": "baseline",
+  "B": "com-skill"
+ },
+ "05": {
+  "A": "com-skill",
+  "B": "baseline"
+ },
+ "06": {
+  "A": "baseline",
+  "B": "com-skill"
+ },
+ "07": {
+  "A": "com-skill",
+  "B": "baseline"
+ },
+ "08": {
+  "A": "baseline",
+  "B": "com-skill"
+ }
+}
