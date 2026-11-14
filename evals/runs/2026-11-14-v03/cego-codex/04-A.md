@@ -1,0 +1,1 @@
+Vou montar uma planilha para você registrar o dinheiro da casa e do ateliê separadamente, acompanhar entradas, gastos e saldo de cada um e também enxergar o total. Vou incluir as transferências entre os dois para que elas não sejam contadas como gasto ou ganho duas vezes.

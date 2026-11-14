@@ -14,7 +14,7 @@ Perguntas simples continuam recebendo respostas simples.
 
 ## Status
 
-v0.2 experimental: venceu o mesmo modelo sem a skill em 8 de 9 casos numa rodada às cegas ([relatório](evals/runs/2026-11-14/RELATORIO.md)). Os evals em [`evals/`](evals/) medem a primeira resposta do agente contra o mesmo modelo sem a skill.
+v0.3 experimental: numa rodada às cegas, venceu o mesmo modelo sem a skill em 9 de 9 casos no Claude, 8 de 9 no Codex e 9 de 9 no Gemini ([relatório](evals/runs/2026-11-14-v03/RELATORIO.md)). Os evals em [`evals/`](evals/) medem a primeira resposta do agente contra o mesmo modelo sem a skill.
 
 ## Instalação
 
