@@ -18,11 +18,12 @@ v0.1: skill + 8 evals. Pronta se vencer o baseline (mesmo modelo sem skill) em p
 - Skill v0.2 (SKILL.md + 7 referências), README, LICENSE.
 - 9 evals; rodada às cegas: v0.1 6/8 (reprovada no caso 07), v0.2 8/9 (aprovada). Ver evals/runs/2026-11-14/RELATORIO.md.
 
+- Portabilidade: Codex 8/9 e Gemini 8/9 + 1 empate (rodada 3 via T3).
+
 ## Próximo passo
 Criar o repositório privado vazio e fazer o push.
 
 ## Em aberto
 - Nome definitivo do projeto.
-- Rodada no Codex (bloqueada: delegação do T3 só funciona de dentro de uma thread do T3).
 - Repetições por caso e juiz de outra família de modelo.
 - Embalagens de plugin (Agent Plugins 1.0 e Claude Code).

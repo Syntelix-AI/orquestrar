@@ -1,0 +1,78 @@
+{
+ "codex": {
+  "01": {
+   "A": "baseline",
+   "B": "skill"
+  },
+  "02": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "03": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "04": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "05": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "06": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "07": {
+   "A": "baseline",
+   "B": "skill"
+  },
+  "08": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "09": {
+   "A": "skill",
+   "B": "baseline"
+  }
+ },
+ "gemini": {
+  "01": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "02": {
+   "A": "baseline",
+   "B": "skill"
+  },
+  "03": {
+   "A": "baseline",
+   "B": "skill"
+  },
+  "04": {
+   "A": "baseline",
+   "B": "skill"
+  },
+  "05": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "06": {
+   "A": "baseline",
+   "B": "skill"
+  },
+  "07": {
+   "A": "baseline",
+   "B": "skill"
+  },
+  "08": {
+   "A": "skill",
+   "B": "baseline"
+  },
+  "09": {
+   "A": "skill",
+   "B": "baseline"
+  }
+ }
+}
