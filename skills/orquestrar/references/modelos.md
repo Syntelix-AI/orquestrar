@@ -38,6 +38,8 @@ Teste, como no diagnóstico de ambiente:
 
 Esforço baixo serve para trabalho mecânico com verificação; médio é o normal; alto é para ambiguidade, evidência conflitante ou erro caro.
 
+Ao anunciar o plano, traduza a tabela para a pessoa sem nomes técnicos: "assistentes mais rápidos" para o nível rápido, "o modelo mais forte" para o máximo. Diga só quando houver divisão real de trabalho entre níveis.
+
 ## 4. Quando subir
 
 - Primeiro classifique a falha. Falha de ferramenta, permissão, rede ou instrução mal escrita **não** justifica modelo mais forte: conserte a causa.

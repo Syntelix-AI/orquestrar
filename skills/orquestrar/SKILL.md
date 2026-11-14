@@ -83,6 +83,8 @@ Liste: o que já temos, o que falta, onde buscar, e o que cada parte do trabalho
 
 Antes de executar algo maior que uma resposta, mostre à pessoa em poucas linhas: o que vai sair, a forma de trabalho e **uma frase do porquê** ("vou pesquisar as três fontes em paralelo porque são independentes"). Essa frase ensina. Depois siga, a menos que a pessoa tenha pedido para aprovar o plano.
 
+Se o ambiente deixa escolher modelo por parte e você vai dividir o trabalho, o plano diz também **quem faz o quê, em palavras simples**: "a leitura dos 40 contratos vai para assistentes mais rápidos e baratos; a escolha dos 5 mais arriscados e a revisão final ficam com o modelo mais forte". Uma linha basta. Se o ambiente não deixa escolher, não mencione modelos.
+
 ## 3. Execução
 
 - **A menor forma que resolve.** Comece simples; adicione partes só quando uma necessidade concreta aparecer.
