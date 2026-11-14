@@ -1,0 +1,10 @@
+{
+  "name": "orquestrar",
+  "displayName": "Orquestrar",
+  "version": "0.4.0",
+  "description": "Leva qualquer tarefa com IA do pedido vago a um artefato verificado: entende a intenção, testa o ambiente, escolhe a menor forma de trabalho, verifica e pede aprovação antes de ações irreversíveis.",
+  "author": { "name": "David Fiocchi" },
+  "repository": "https://github.com/CafeSemCafeina/orquestrar",
+  "license": "MIT",
+  "keywords": ["orquestração", "agentes", "skills", "pt-BR", "workflow"]
+}

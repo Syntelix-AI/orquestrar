@@ -1,0 +1,13 @@
+{
+  "name": "orquestrar",
+  "owner": { "name": "David Fiocchi" },
+  "description": "Catálogo do plugin orquestrar.",
+  "plugins": [
+    {
+      "name": "orquestrar",
+      "source": "./plugins/orquestrar",
+      "description": "Leva qualquer tarefa com IA do pedido vago a um artefato verificado: entende a intenção, testa o ambiente, escolhe a menor forma de trabalho, verifica e pede aprovação antes de ações irreversíveis.",
+      "category": "productivity"
+    }
+  ]
+}
