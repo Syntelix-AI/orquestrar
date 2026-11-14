@@ -25,11 +25,11 @@ v0.1: skill + 8 evals. Pronta se vencer o baseline (mesmo modelo sem skill) em p
 - Portabilidade v0.2: Codex 8/9, Gemini 8/9 + 1 empate.
 - v0.3 às cegas: Claude 9/9 (134 vs 94), Codex 8/9 (101 vs 70; perdeu o 06 por 1 ponto, sem orquestrar), Gemini 9/9 (126 vs 66). Roteador apareceu em linguagem simples nas três. Ver evals/runs/2026-11-14-v03/RELATORIO.md.
 - v0.4: 17 pares às cegas, 16 vitórias e 1 empate, nenhuma derrota; Codex venceu 06 nas 3 repetições. Ver evals/runs/2026-11-14-v04/RELATORIO.md.
-- Plugin empacotado em plugins/orquestrar/: `claude plugin validate` passou (plugin e catálogo) e a instalação local pelo catálogo funcionou. Não testado: sessão real do Claude Code carregando a skill (sem login neste ambiente) e instalação no Codex.
+- Plugin empacotado em plugins/orquestrar/: `claude plugin validate` passou (plugin e catálogo) e a instalação local pelo catálogo funcionou. Codex CLI 0.169.0 no PC do David: `codex plugin marketplace add CafeSemCafeina/orquestrar` + `codex plugin add orquestrar@orquestrar` instalaram e habilitaram sem avisos de formato, e `codex exec` reconhece a skill como `orquestrar:orquestrar` (descrição aparece truncada). Não testado: sessão real do Claude Code carregando a skill.
 - Repositório privado CafeSemCafeina/orquestrar criado e atualizado.
 
 ## Próximo passo
-Testar a instalação no Codex do David (`codex plugin marketplace add`) e numa sessão real do Claude Code. Depois, decidir sobre tornar o repositório público (decisão do David).
+Testar numa sessão real do Claude Code. Avaliar se a descrição deve começar pelo gatilho, já que o Codex mostra só o começo dela. Tornar o repositório público é decisão do David.
 
 ## Em aberto
 - Nome definitivo do projeto.
