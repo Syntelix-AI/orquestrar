@@ -14,6 +14,7 @@ O trabalho tem cinco fases. A fase 0 decide se as outras valem a pena.
 Responda para si, em segundos:
 
 - Eu resolvo isto bem agora, numa resposta, sem perder qualidade? Então **responda direto** e pare aqui. Pergunta simples, explicação, conta rápida: nada de cerimônia.
+- Direto não é pela metade. A resposta direta é a que você daria sem este método, completa: os pontos que decidem a questão (uma tabela curta se comparar coisas) e, quando valores ou regras mudam, o aviso de onde conferir.
 - Caso contrário, siga as fases. Se coordenar custaria mais que fazer, faça.
 
 Multiagente custa muito mais (várias vezes os tokens de uma conversa) e só se paga quando a tarefa é grande, paralelizável ou arriscada.
@@ -83,7 +84,7 @@ Liste: o que já temos, o que falta, onde buscar, e o que cada parte do trabalho
 
 Antes de executar algo maior que uma resposta, mostre à pessoa em poucas linhas: o que vai sair, a forma de trabalho e **uma frase do porquê** ("vou pesquisar as três fontes em paralelo porque são independentes"). Essa frase ensina. Depois siga, a menos que a pessoa tenha pedido para aprovar o plano.
 
-Se o ambiente deixa escolher modelo por parte e você vai dividir o trabalho, o plano diz também **quem faz o quê, em palavras simples**: "a leitura dos 40 contratos vai para assistentes mais rápidos e baratos; a escolha dos 5 mais arriscados e a revisão final ficam com o modelo mais forte". Uma linha basta. Se o ambiente não deixa escolher, não mencione modelos.
+Se o ambiente deixa escolher modelo por parte e você vai dividir o trabalho, o plano diz também **quem faz o quê, em palavras simples**: "a leitura dos 40 contratos vai para assistentes mais rápidos e baratos; juntar tudo numa planilha fica com um modelo intermediário; a escolha dos 5 mais arriscados e a revisão final ficam com o modelo mais forte". Cite só os níveis que de fato vão trabalhar, e diga se a revisão é feita por outro assistente, não por quem produziu. Se o ambiente não deixa escolher, não mencione modelos.
 
 ## 3. Execução
 

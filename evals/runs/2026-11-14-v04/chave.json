@@ -1,0 +1,104 @@
+{
+ "P01": {
+  "par": "codex-06-r3",
+  "caso": "06",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P02": {
+  "par": "codex-02",
+  "caso": "02",
+  "A": "skill",
+  "B": "baseline"
+ },
+ "P03": {
+  "par": "codex-05",
+  "caso": "05",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P04": {
+  "par": "codex-06-r2",
+  "caso": "06",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P05": {
+  "par": "codex-07-r2",
+  "caso": "07",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P06": {
+  "par": "codex-07-r3",
+  "caso": "07",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P07": {
+  "par": "codex-07-r1",
+  "caso": "07",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P08": {
+  "par": "codex-01",
+  "caso": "01",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P09": {
+  "par": "codex-08",
+  "caso": "08",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P10": {
+  "par": "claude-09",
+  "caso": "09",
+  "A": "skill",
+  "B": "baseline"
+ },
+ "P11": {
+  "par": "codex-09-r1",
+  "caso": "09",
+  "A": "skill",
+  "B": "baseline"
+ },
+ "P12": {
+  "par": "codex-06-r1",
+  "caso": "06",
+  "A": "skill",
+  "B": "baseline"
+ },
+ "P13": {
+  "par": "codex-04",
+  "caso": "04",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P14": {
+  "par": "codex-09-r3",
+  "caso": "09",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P15": {
+  "par": "codex-09-r2",
+  "caso": "09",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P16": {
+  "par": "codex-03",
+  "caso": "03",
+  "A": "baseline",
+  "B": "skill"
+ },
+ "P17": {
+  "par": "claude-06",
+  "caso": "06",
+  "A": "baseline",
+  "B": "skill"
+ }
+}

@@ -14,7 +14,7 @@ Perguntas simples continuam recebendo respostas simples.
 
 ## Status
 
-v0.3 experimental: numa rodada às cegas, venceu o mesmo modelo sem a skill em 9 de 9 casos no Claude, 8 de 9 no Codex e 9 de 9 no Gemini ([relatório](evals/runs/2026-11-14-v03/RELATORIO.md)). Os evals em [`evals/`](evals/) medem a primeira resposta do agente contra o mesmo modelo sem a skill.
+v0.4 experimental: numa rodada às cegas, a v0.3 venceu o mesmo modelo sem a skill em 9 de 9 casos no Claude, 8 de 9 no Codex e 9 de 9 no Gemini ([relatório](evals/runs/2026-11-14-v03/RELATORIO.md)). A v0.4 ajustou a resposta direta e o roteador e não perdeu nenhum dos 17 pares testados (16 vitórias e 1 empate; [relatório](evals/runs/2026-11-14-v04/RELATORIO.md)). Os evals em [`evals/`](evals/) medem a primeira resposta do agente contra o mesmo modelo sem a skill.
 
 ## Instalação
 
