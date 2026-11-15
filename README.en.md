@@ -6,7 +6,7 @@
 
 A plugin for Claude, ChatGPT, Codex and other AI agents that runs any task with a method: it works out what you want, tests what the tool can actually do, picks the smallest way of working that gets it done, checks before delivering, and asks for your approval before anything that can't be undone.
 
-[Website and install](https://syntelix-ai.github.io/orquestrar/en/) · [Português](README.md) · [Evals](evals/) · [Contributing](CONTRIBUTING.md)
+[Website and install](https://skills.syntelix.ia.br/orquestrar/en/) · [Português](README.md) · [Evals](evals/) · [Contributing](CONTRIBUTING.md)
 
 ![MIT license](https://img.shields.io/badge/license-MIT-673981)
 ![Version 0.4.0](https://img.shields.io/badge/version-0.4.0-673981)
@@ -53,7 +53,7 @@ orquestrar is tested blind against the same model without the plugin: a judge ge
 
 ## Install
 
-Step by step for each app on the [website](https://syntelix-ai.github.io/orquestrar/en/).
+Step by step for each app on the [website](https://skills.syntelix.ia.br/orquestrar/en/).
 
 **Claude (web and desktop):** Customize → Plugins → Personal plugins → **+** → Add marketplace → `Syntelix-AI/orquestrar`. Then install `orquestrar`.
 
@@ -73,7 +73,7 @@ codex plugin marketplace add Syntelix-AI/orquestrar
 codex plugin add orquestrar@orquestrar
 ```
 
-**Just the skill, by upload:** download [`orquestrar-skill.zip`](https://syntelix-ai.github.io/orquestrar/download/orquestrar-skill.zip) and upload it on the skills screen in Claude or ChatGPT.
+**Just the skill, by upload:** download [`orquestrar-skill.zip`](https://skills.syntelix.ia.br/orquestrar/download/orquestrar-skill.zip) and upload it on the skills screen in Claude or ChatGPT.
 
 ## Packs by profession
 
