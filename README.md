@@ -1,8 +1,6 @@
 <div align="center">
 
-# orquestrar
-
-**Do pedido vago ao trabalho entregue e conferido.**
+<img src="docs/assets/capa.png" alt="orquestrar: do pedido vago ao trabalho entregue e conferido" width="100%">
 
 Um plugin para Claude, ChatGPT, Codex e outros agentes de IA que conduz qualquer tarefa com método: entende o que você quer, testa o que a ferramenta consegue fazer, escolhe a menor forma de trabalho que resolve, confere antes de entregar e pede sua aprovação antes de qualquer ação que não dá para desfazer.
 

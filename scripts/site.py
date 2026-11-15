@@ -282,6 +282,8 @@ def render(code):
 <meta property="og:title" content="{escape(s['title'])}">
 <meta property="og:description" content="{escape(s['description'])}">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://skills.syntelix.ia.br/orquestrar/assets/capa.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" hreflang="{alt}" href="{s['other']}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='9' cy='10' r='4' fill='%23673981'/%3E%3Ccircle cx='23' cy='9' r='3' fill='%233f817c'/%3E%3Ccircle cx='16' cy='23' r='5' fill='%23d96f52'/%3E%3C/svg%3E">
 <link rel="preload" href="{p}assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>

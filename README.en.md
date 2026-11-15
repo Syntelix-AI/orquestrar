@@ -1,8 +1,6 @@
 <div align="center">
 
-# orquestrar
-
-**From a vague request to finished, checked work.**
+<img src="docs/assets/capa.png" alt="orquestrar: from a vague request to finished, checked work" width="100%">
 
 A plugin for Claude, ChatGPT, Codex and other AI agents that runs any task with a method: it works out what you want, tests what the tool can actually do, picks the smallest way of working that gets it done, checks before delivering, and asks for your approval before anything that can't be undone.
 
