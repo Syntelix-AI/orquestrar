@@ -7,8 +7,8 @@ from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-REPO = "https://github.com/CafeSemCafeina/orquestrar"
-SOURCE = "CafeSemCafeina/orquestrar"
+REPO = "https://github.com/Syntelix-AI/orquestrar"
+SOURCE = "Syntelix-AI/orquestrar"
 ISSUE_RELATO = f"{REPO}/issues/new?template=relato-profissional.yml"
 
 CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>'
@@ -60,7 +60,6 @@ T = {
   "res_lede": "Em cada caso, um juiz recebe duas respostas sem saber qual usou o orquestrar: a do mesmo modelo com o plugin e a do mesmo modelo sem ele.",
   "res_wins": "vitórias em 9 casos", "res_with": "com", "res_without": "sem", "res_points": "pontos",
   "res_v04_label": "Versão 0.4, com repetições:", "res_v04_text": "16 vitórias e 1 empate em 17 comparações, nenhuma derrota.",
-  "res_limits": "Para ler com cuidado: os testes medem a primeira resposta do agente, não a tarefa inteira; o juiz é um modelo de linguagem; os 9 casos foram escritos para o projeto, incluindo duas armadilhas (uma pergunta simples e um envio de e-mail em massa). Os casos, a régua, as respostas brutas e os relatórios estão abertos no repositório.",
   "res_link": "Ver os relatórios dos testes",
   "inst_kicker": "Instalar", "inst_h2": "Escolha o seu app.",
   "inst_lede": "Leva um minuto. Se os menus aparecerem em inglês, os nomes estão entre parênteses.",
@@ -159,7 +158,6 @@ T = {
   "res_lede": "In each case, a judge gets two answers without knowing which used orquestrar: the same model with the plugin and the same model without it.",
   "res_wins": "wins in 9 cases", "res_with": "with", "res_without": "without", "res_points": "points",
   "res_v04_label": "Version 0.4, with repetitions:", "res_v04_text": "16 wins and 1 tie in 17 comparisons, no losses.",
-  "res_limits": "Read with care: the tests measure the agent's first reply, not the whole task; the judge is a language model; the 9 cases were written for the project, including two traps (a simple question and a mass email send). Cases, rubric, raw answers and reports are open in the repository (in Portuguese).",
   "res_link": "See the test reports",
   "inst_kicker": "Install", "inst_h2": "Pick your app.",
   "inst_lede": "It takes a minute.",
@@ -337,7 +335,6 @@ def render(code):
   <div class="section-head"><p class="kicker kicker--light">{escape(s['res_kicker'])}</p><h2>{s['res_h2']}</h2><p class="lede">{escape(s['res_lede'])}</p></div>
   <div class="scores">{scores}</div>
   <div class="v04"><span class="meta" style="color:var(--purple-200)">{escape(s['res_v04_label'])}</span><strong>16/17</strong><span>{escape(s['res_v04_text'])}</span></div>
-  <p class="limits">{escape(s['res_limits'])}</p>
   <div class="actions"><a class="btn btn--light" href="{REPO}/tree/main/evals">{escape(s['res_link'])}</a></div>
 </div></section>
 

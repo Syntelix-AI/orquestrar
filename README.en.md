@@ -6,7 +6,7 @@
 
 A plugin for Claude, ChatGPT, Codex and other AI agents that runs any task with a method: it works out what you want, tests what the tool can actually do, picks the smallest way of working that gets it done, checks before delivering, and asks for your approval before anything that can't be undone.
 
-[Website and install](https://cafesemcafeina.github.io/orquestrar/en/) · [Português](README.md) · [Evals](evals/) · [Contributing](CONTRIBUTING.md)
+[Website and install](https://syntelix-ai.github.io/orquestrar/en/) · [Português](README.md) · [Evals](evals/) · [Contributing](CONTRIBUTING.md)
 
 ![MIT license](https://img.shields.io/badge/license-MIT-673981)
 ![Version 0.4.0](https://img.shields.io/badge/version-0.4.0-673981)
@@ -53,33 +53,33 @@ orquestrar is tested blind against the same model without the plugin: a judge ge
 
 ## Install
 
-Step by step for each app on the [website](https://cafesemcafeina.github.io/orquestrar/en/).
+Step by step for each app on the [website](https://syntelix-ai.github.io/orquestrar/en/).
 
-**Claude (web and desktop):** Customize → Plugins → Personal plugins → **+** → Add marketplace → `CafeSemCafeina/orquestrar`. Then install `orquestrar`.
+**Claude (web and desktop):** Customize → Plugins → Personal plugins → **+** → Add marketplace → `Syntelix-AI/orquestrar`. Then install `orquestrar`.
 
-**ChatGPT desktop and Codex:** Plugins → Add marketplace → source `CafeSemCafeina/orquestrar`, ref `main`. Then install `orquestrar`.
+**ChatGPT desktop and Codex:** Plugins → Add marketplace → source `Syntelix-AI/orquestrar`, ref `main`. Then install `orquestrar`.
 
 **Claude Code:**
 
 ```
-/plugin marketplace add CafeSemCafeina/orquestrar
+/plugin marketplace add Syntelix-AI/orquestrar
 /plugin install orquestrar@orquestrar
 ```
 
 **Codex CLI:**
 
 ```
-codex plugin marketplace add CafeSemCafeina/orquestrar
+codex plugin marketplace add Syntelix-AI/orquestrar
 codex plugin add orquestrar@orquestrar
 ```
 
-**Just the skill, by upload:** download [`orquestrar-skill.zip`](https://cafesemcafeina.github.io/orquestrar/download/orquestrar-skill.zip) and upload it on the skills screen in Claude or ChatGPT.
+**Just the skill, by upload:** download [`orquestrar-skill.zip`](https://syntelix-ai.github.io/orquestrar/download/orquestrar-skill.zip) and upload it on the skills screen in Claude or ChatGPT.
 
 ## Packs by profession
 
 orquestrar is the general method. **Packs** add what each field has of its own: the right questions to understand a request, typical deliverables, sources to check against, and the points where the agent must stop and ask.
 
-Legal, academic research, studying, and personal organization and productivity are the first packs we want to build. Building packs is this project's main call for contributions, and it starts with no code: [tell us how you work with AI today](https://github.com/CafeSemCafeina/orquestrar/issues/new?template=relato-profissional.yml). Each account becomes test cases and shapes the pack for your field. See [PACKS.md](PACKS.md).
+Legal, academic research, studying, and personal organization and productivity are the first packs we want to build. Building packs is this project's main call for contributions, and it starts with no code: [tell us how you work with AI today](https://github.com/Syntelix-AI/orquestrar/issues/new?template=relato-profissional.yml). Each account becomes test cases and shapes the pack for your field. See [PACKS.md](PACKS.md).
 
 ## Contributing
 

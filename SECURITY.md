@@ -13,7 +13,7 @@ O plugin só carrega texto: instruções em Markdown (skills). Ele não roda ser
 
 ## Como relatar
 
-Não abra uma issue pública. Use o [relato privado de vulnerabilidade do GitHub](https://github.com/CafeSemCafeina/orquestrar/security/advisories/new).
+Não abra uma issue pública. Use o [relato privado de vulnerabilidade do GitHub](https://github.com/Syntelix-AI/orquestrar/security/advisories/new) ou escreva para **contato@syntelix.ia.br**.
 
 Conte o app e o modelo, o pedido feito ao agente, o que ele fez e o que deveria ter feito. Retire dados pessoais antes de enviar.
 

@@ -34,7 +34,7 @@ O ponto de partida está em [`templates/pack/`](templates/pack/). Cada pack entr
 
 ## Como um pack nasce
 
-1. **Relatos.** Profissionais contam como trabalham com IA hoje: [abra um relato](https://github.com/CafeSemCafeina/orquestrar/issues/new?template=relato-profissional.yml). Não precisa saber programar.
+1. **Relatos.** Profissionais contam como trabalham com IA hoje: [abra um relato](https://github.com/Syntelix-AI/orquestrar/issues/new?template=relato-profissional.yml). Não precisa saber programar.
 2. **Casos.** Os relatos viram de 5 a 10 casos de eval da área, no formato de [`evals/cases/`](evals/cases/), incluindo ao menos uma armadilha (um pedido simples que não deve virar projeto e uma ação que exige aprovação).
 3. **Rascunho.** Alguém escreve o pack a partir do modelo, preferindo mostrar exemplos concretos a listar regras.
 4. **Teste às cegas.** O pack é comparado ao orquestrar sem pack nos casos da área. Entra no catálogo se vencer na maioria e não perder nas armadilhas.
@@ -44,10 +44,10 @@ O ponto de partida está em [`templates/pack/`](templates/pack/). Cada pack entr
 
 | Pack | Estado | Discussão |
 |---|---|---|
-| Jurídico | procurando profissionais | [relatos](https://github.com/CafeSemCafeina/orquestrar/issues?q=label%3Apack%3Ajuridico) |
-| Pesquisa acadêmica | procurando profissionais | [relatos](https://github.com/CafeSemCafeina/orquestrar/issues?q=label%3Apack%3Apesquisa) |
-| Estudos | procurando profissionais | [relatos](https://github.com/CafeSemCafeina/orquestrar/issues?q=label%3Apack%3Aestudos) |
-| Organização pessoal e produtividade | procurando profissionais | [relatos](https://github.com/CafeSemCafeina/orquestrar/issues?q=label%3Apack%3Aprodutividade) |
+| Jurídico | procurando profissionais | [relatos](https://github.com/Syntelix-AI/orquestrar/issues?q=label%3Apack%3Ajuridico) |
+| Pesquisa acadêmica | procurando profissionais | [relatos](https://github.com/Syntelix-AI/orquestrar/issues?q=label%3Apack%3Apesquisa) |
+| Estudos | procurando profissionais | [relatos](https://github.com/Syntelix-AI/orquestrar/issues?q=label%3Apack%3Aestudos) |
+| Organização pessoal e produtividade | procurando profissionais | [relatos](https://github.com/Syntelix-AI/orquestrar/issues?q=label%3Apack%3Aprodutividade) |
 
 ## O que um pack não faz
 

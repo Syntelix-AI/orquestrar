@@ -8,19 +8,19 @@ Obrigado pelo interesse. O orquestrar melhora com uso real, então a contribuiç
 
 ### 1. Conte como você trabalha com IA (sem código)
 
-Se você é profissional de alguma área, como direito, pesquisa, ensino ou saúde, ou simplesmente usa IA para se organizar, [abra um relato](https://github.com/CafeSemCafeina/orquestrar/issues/new?template=relato-profissional.yml). Conte que tarefas você leva para a IA, o que funciona, o que irrita e o que você não confia em deixar com ela.
+Se você é profissional de alguma área, como direito, pesquisa, ensino ou saúde, ou simplesmente usa IA para se organizar, [abra um relato](https://github.com/Syntelix-AI/orquestrar/issues/new?template=relato-profissional.yml). Conte que tarefas você leva para a IA, o que funciona, o que irrita e o que você não confia em deixar com ela.
 
 Relatos são a matéria-prima dos [packs por profissão](PACKS.md), o principal pedido de contribuição deste projeto.
 
 ### 2. Relate um caso de uso
 
-Usou o orquestrar e algo chamou atenção, bom ou ruim? [Abra um caso de campo](https://github.com/CafeSemCafeina/orquestrar/issues/new?template=caso-de-campo.yml): o pedido, o app, o que o agente fez e o que você esperava. Casos de campo viram casos de eval.
+Usou o orquestrar e algo chamou atenção, bom ou ruim? [Abra um caso de campo](https://github.com/Syntelix-AI/orquestrar/issues/new?template=caso-de-campo.yml): o pedido, o app, o que o agente fez e o que você esperava. Casos de campo viram casos de eval.
 
 Antes de colar uma conversa, retire nomes, documentos e dados pessoais seus e de outras pessoas.
 
 ### 3. Construa um pack
 
-Leia o [PACKS.md](PACKS.md), abra uma [proposta de pack](https://github.com/CafeSemCafeina/orquestrar/issues/new?template=proposta-de-pack.yml) e parta de [`templates/pack/`](templates/pack/).
+Leia o [PACKS.md](PACKS.md), abra uma [proposta de pack](https://github.com/Syntelix-AI/orquestrar/issues/new?template=proposta-de-pack.yml) e parta de [`templates/pack/`](templates/pack/).
 
 ### 4. Melhore o método
 

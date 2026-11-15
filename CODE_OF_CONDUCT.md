@@ -19,7 +19,7 @@ Este projeto quer reunir pessoas de áreas muito diferentes: profissionais que n
 
 ## Como relatar
 
-Se você presenciar ou sofrer algo que viole este código, escreva para o mantenedor pelo [relato privado do GitHub](https://github.com/CafeSemCafeina/orquestrar/security/advisories/new), que só ele lê. Relatos são tratados com sigilo.
+Se você presenciar ou sofrer algo que viole este código, escreva para **contato@syntelix.ia.br**. Relatos são tratados com sigilo.
 
 ## Consequências
 
