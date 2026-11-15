@@ -1,0 +1,36 @@
+name: Proposta de pack
+description: Proponha ou assuma a construção de um pack para uma área.
+title: "[Pack] "
+labels: ["pack"]
+body:
+  - type: input
+    id: area
+    attributes:
+      label: Área do pack
+    validations:
+      required: true
+  - type: textarea
+    id: quem
+    attributes:
+      label: Quem usaria e para quê
+      description: Exemplos de pedidos típicos da área.
+    validations:
+      required: true
+  - type: textarea
+    id: diferenca
+    attributes:
+      label: O que muda em relação ao método geral
+      description: Perguntas de intenção, fontes, pontos de aprovação, artefatos.
+  - type: textarea
+    id: relatos
+    attributes:
+      label: Relatos de profissionais
+      description: Links para issues de relato ou como você pretende colher relatos.
+  - type: checkboxes
+    id: papel
+    attributes:
+      label: Seu papel
+      options:
+        - label: Sou da área
+        - label: Quero escrever o pack
+        - label: Posso revisar o pack

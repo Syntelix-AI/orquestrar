@@ -1,0 +1,59 @@
+name: Relato de profissional
+description: Conte como você trabalha com IA na sua área. Não precisa saber programar.
+title: "[Relato] "
+labels: ["relato"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por contar. Seu relato vira casos de teste e orienta o pack da sua área.
+        **Não inclua nomes, documentos ou dados de clientes, pacientes, alunos ou colegas.**
+  - type: dropdown
+    id: area
+    attributes:
+      label: Sua área
+      options:
+        - Jurídico
+        - Pesquisa acadêmica
+        - Estudos
+        - Organização pessoal e produtividade
+        - Outra (conte abaixo)
+    validations:
+      required: true
+  - type: input
+    id: funcao
+    attributes:
+      label: O que você faz
+      placeholder: "Ex.: advogada trabalhista em escritório pequeno; doutorando em ecologia"
+  - type: textarea
+    id: tarefas
+    attributes:
+      label: Que tarefas você leva para a IA hoje?
+      description: Escreva os pedidos do jeito que você costuma escrever.
+    validations:
+      required: true
+  - type: textarea
+    id: funciona
+    attributes:
+      label: O que funciona bem?
+  - type: textarea
+    id: irrita
+    attributes:
+      label: O que irrita, dá errado ou toma tempo?
+    validations:
+      required: true
+  - type: textarea
+    id: confianca
+    attributes:
+      label: O que você não deixaria com a IA, e por quê?
+  - type: input
+    id: apps
+    attributes:
+      label: Que apps de IA você usa?
+      placeholder: "Ex.: ChatGPT no celular, Claude no computador"
+  - type: checkboxes
+    id: contato
+    attributes:
+      label: Conversa
+      options:
+        - label: Topo conversar mais sobre isso (respondo nesta issue)

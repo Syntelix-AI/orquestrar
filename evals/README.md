@@ -1,12 +1,22 @@
-# Evals da skill orquestrar (v0.1)
+# Evals do orquestrar
 
-Conjunto de 8 casos para medir se a skill transforma um usuário básico de IA em avançado sem exigir megaprompt.
+Casos para medir se o orquestrar faz um agente de IA trabalhar melhor que o mesmo agente sem o plugin, sem exigir que a pessoa escreva prompts longos.
+
+## Rodadas
+
+| Data | Versão | Resultado | Relatório |
+|---|---|---|---|
+| 2026-11-14 | 0.1 e 0.2 (Claude), 0.2 (Codex, Gemini) | 0.1: 6/8; 0.2: 8/9 e 1 empate | [runs/2026-11-14](runs/2026-11-14/RELATORIO.md) |
+| 2026-11-14 | 0.3 (Claude, Codex, Gemini) | 9/9, 8/9, 9/9 | [runs/2026-11-14-v03](runs/2026-11-14-v03/RELATORIO.md) |
+| 2026-11-14 | 0.4 (Claude e Codex, com repetições) | 16 de 17, 1 empate | [runs/2026-11-14-v04](runs/2026-11-14-v04/RELATORIO.md) |
+
+Casos de packs por profissão ficam em `cases/<area>/` (veja [PACKS.md](../PACKS.md)).
 
 ## O que é avaliado
 A primeira resposta do agente ao pedido do caso, mais o plano que ela anuncia (o que vai fazer, o que vai entregar, como vai verificar, o que pede de aprovação). Não se avalia a execução completa do trabalho.
 
 ## Estrutura
-- `cases/01..08-*.md`: persona, ambiente simulado, pedido, respostas ocultas, comportamento esperado e bandeiras vermelhas.
+- `cases/01..09-*.md`: persona, ambiente simulado, pedido, respostas ocultas, comportamento esperado e bandeiras vermelhas.
 - `rubric.md`: régua de 8 critérios (0 a 2) e instrução de julgamento pareado.
 - `runs/`: saídas das execuções (sugestão: `runs/<data>/<caso>/{com-skill,baseline}.md`).
 

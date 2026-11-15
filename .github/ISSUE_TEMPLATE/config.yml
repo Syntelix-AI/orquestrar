@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Falha de segurança
+    url: https://github.com/CafeSemCafeina/orquestrar/security/advisories/new
+    about: Relate em privado, não numa issue pública.

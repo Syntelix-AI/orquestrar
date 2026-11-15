@@ -5,7 +5,7 @@ Dois ajustes sobre a v0.3:
 1. **Triagem:** responder direto não é responder pela metade. A resposta direta traz os pontos que decidem a questão (uma tabela curta, se comparar coisas) e, quando valores ou regras mudam, diz onde conferir.
 2. **Roteador:** o plano cita o nível intermediário quando há consolidação e diz se a revisão é feita por outro assistente, não por quem produziu.
 
-Rodada enxuta por decisão do David: o volume foi para o Codex, e o Claude rodou só os dois casos que mudaram. Um juiz Sonnet julgou 17 pares às cegas, em ordem sorteada; para as respostas do Codex, é um juiz de outra família.
+Rodada enxuta, por custo: o volume foi para o Codex, e o Claude rodou só os dois casos que mudaram. Um juiz Sonnet julgou 17 pares às cegas, em ordem sorteada; para as respostas do Codex, é um juiz de outra família.
 
 ## Resultado
 

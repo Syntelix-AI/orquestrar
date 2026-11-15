@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "orquestrar-AREA",
+  "version": "0.1.0",
+  "description": "Pack de AREA para o orquestrar: perguntas, fontes, pontos de aprovação e artefatos da área.",
+  "author": { "name": "SEU NOME" },
+  "repository": "https://github.com/CafeSemCafeina/orquestrar",
+  "license": "MIT",
+  "keywords": ["orquestrar", "pack", "AREA"]
+}

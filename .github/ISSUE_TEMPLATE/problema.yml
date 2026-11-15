@@ -1,0 +1,28 @@
+name: Problema na instalação ou no plugin
+description: O plugin não instala, não aparece ou dá erro.
+title: "[Problema] "
+labels: ["problema"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options: [Claude, Claude Code, ChatGPT, Codex, Outro]
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do app, se souber
+  - type: textarea
+    id: passos
+    attributes:
+      label: O que você fez
+    validations:
+      required: true
+  - type: textarea
+    id: erro
+    attributes:
+      label: O que aconteceu (mensagem de erro, se houver)
+    validations:
+      required: true

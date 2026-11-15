@@ -1,0 +1,42 @@
+name: Caso de campo
+description: Usou o orquestrar e algo chamou atenção, bom ou ruim? Conte aqui.
+title: "[Caso] "
+labels: ["caso-de-campo"]
+body:
+  - type: markdown
+    attributes:
+      value: "Retire nomes, documentos e dados pessoais antes de colar trechos de conversa."
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options: [Claude, Claude Code, ChatGPT, Codex, Outro]
+    validations:
+      required: true
+  - type: textarea
+    id: pedido
+    attributes:
+      label: O que você pediu
+    validations:
+      required: true
+  - type: dropdown
+    id: acionou
+    attributes:
+      label: O método foi usado?
+      options:
+        - Sim, sozinho
+        - Só quando pedi pelo nome
+        - Não foi usado
+        - Foi usado, mas não deveria (era coisa simples)
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que o agente fez
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava

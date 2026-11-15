@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>orquestrar · from a vague request to finished, checked work</title>
+<meta name="description" content="Open plugin for Claude, ChatGPT and Codex that runs any task with a method: understands the request, tests the tool, checks before delivering and asks for approval before anything that can&#x27;t be undone.">
+<meta property="og:title" content="orquestrar · from a vague request to finished, checked work">
+<meta property="og:description" content="Open plugin for Claude, ChatGPT and Codex that runs any task with a method: understands the request, tests the tool, checks before delivering and asks for approval before anything that can&#x27;t be undone.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="pt-BR" href="../">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='9' cy='10' r='4' fill='%23673981'/%3E%3Ccircle cx='23' cy='9' r='3' fill='%233f817c'/%3E%3Ccircle cx='16' cy='23' r='5' fill='%23d96f52'/%3E%3C/svg%3E">
+<link rel="preload" href="../assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+<script>document.documentElement.classList.add('js-reveal')</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Skip to content</a>
+<header class="topbar"><div class="shell">
+  <a class="brand" href="./">orquestrar</a>
+  <nav class="nav" aria-label="principal"><a class="nav-link" href="#how">How it works</a><a class="nav-link" href="#results">Results</a><a class="nav-link" href="#install">Install</a><a class="nav-link" href="#packs">Packs</a><a class="nav-link" href="https://github.com/CafeSemCafeina/orquestrar">GitHub</a><a class="lang" href="../" hreflang="pt-BR" title="Português">PT</a></nav>
+</div></header>
+
+<main id="conteudo">
+<section class="hero"><div class="shell">
+  <div>
+    <p class="kicker">Open plugin for AI agents</p>
+    <h1>Ask your way. <em>The agent brings the method.</em></h1>
+    <p class="lede">orquestrar makes Claude, ChatGPT and Codex run any task like someone experienced: they work out what you want, test what the tool can do, check before delivering and stop to ask you before anything that can&#x27;t be undone.</p>
+    <div class="actions"><a class="btn btn--primary" href="#install">Install</a><a class="btn btn--secondary" href="https://github.com/CafeSemCafeina/orquestrar">View on GitHub</a></div>
+    <ul class="chips"><li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Claude</li><li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>ChatGPT</li><li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Codex</li><li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Free and open</li></ul>
+  </div>
+  <figure class="artifact" style="margin:0">
+    <div class="artifact__bar"><span class="meta">Example from a test round</span><span class="meta">Codex · with orquestrar</span></div>
+    <div class="msg msg--user"><span class="meta msg__who">You</span>need instagram posts for the whole month, i sell handmade candels</div>
+    <div class="msg msg--agent"><span class="meta msg__who">Agent</span>I'll put together a month-long calendar with image ideas, copy and captions. I'll start with a sample so you can see if it fits your brand.<ol><li>How many posts a week? <span class="default">If unsure: three.</span></li><li>Who do you sell to? <span class="default">If unsure: candles as gifts.</span></li><li>What tone? <span class="default">If unsure: warm and simple.</span></li></ol>Answer however you like, or just say “go ahead”.<span class="stop">I don't have access to your Instagram: I won't post anything.</span></div>
+    <figcaption class="meta" style="margin-top:1rem">Translated summary of a real answer from the tests (case 05).</figcaption>
+  </figure>
+</div></section>
+
+<section><div class="shell">
+  <div class="section-head"><p class="kicker">What changes</p><h2>Same question, <em>with and without a method.</em></h2><p class="lede">A real test case: “my health plan denied a test my doctor ordered, I need to write them a letter or a petition. can you help?”</p></div>
+  <div class="compare">
+    <article class="panel reveal"><p class="meta">Without a method</p><ul><li>Opens with five questions, none with a default answer.</li><li>Nothing starts until you answer them all.</li><li>Doesn&#x27;t say how it will check the plan&#x27;s rules.</li><li>Doesn&#x27;t make clear the text needs review before it&#x27;s sent.</li></ul></article>
+    <article class="panel panel--with reveal"><p class="meta" style="color:var(--purple-600)">With orquestrar</p><ul><li>Starts drafting the letter and asks on top of the draft.</li><li>Three questions at most, each with a safe default.</li><li>Says it will check the applicable rules before claiming any right.</li><li>Delivers an editable document and reminds you that sending it is your call.</li></ul></article>
+  </div>
+</div></section>
+
+<section id="how"><div class="shell">
+  <div class="section-head"><p class="kicker">How it works</p><h2>Five phases, <em>and a triage first.</em></h2><p class="lede">The agent goes through the phases on its own. You only come in when there&#x27;s a decision that is yours.</p></div>
+  <ol class="phases"><li class="phase reveal"><div class="node">0</div><h3>Triage</h3><p>A simple question gets a direct, complete answer. No ceremony.</p></li><li class="phase reveal"><div class="node">1</div><h3>Intent</h3><p>Result, deadline and limits. Up to three questions, each with a default.</p></li><li class="phase reveal"><div class="node">2</div><h3>Diagnosis</h3><p>Tests what the tool can do and picks the smallest way of working.</p></li><li class="phase phase--decide reveal"><div class="node">3</div><h3>Execution</h3><p>Prepares everything reversible. Stops before sending, publishing or deleting.</p></li><li class="phase phase--verify reveal"><div class="node">4</div><h3>Verification</h3><p>Checks numbers, sources and formats. Whoever produced it doesn&#x27;t approve it.</p></li><li class="phase reveal"><div class="node">5</div><h3>Delivery</h3><p>A document, spreadsheet or folder, with a short receipt of what was done.</p></li></ol>
+</div></section>
+
+<section><div class="shell">
+  <div class="section-head"><p class="kicker">Why use it</p><h2>Less effort from you, <em>more care from the agent.</em></h2></div>
+  <div class="findings"><article class="finding reveal"><h3>No prompt writing needed</h3><p>Ask as you&#x27;d ask a colleague. The agent finds what&#x27;s missing with a few questions, each with a default answer.</p></article><article class="finding finding--decide reveal"><h3>Nothing irreversible without you</h3><p>Emails, posts, submissions and deletions stay prepared and wait for your “send it”.</p></article><article class="finding reveal"><h3>Checked before it reaches you</h3><p>The agent says what it verified and what&#x27;s still open. Whoever did the work isn&#x27;t who approves it.</p></article><article class="finding reveal"><h3>Something to use, not loose text</h3><p>Results come as documents, spreadsheets or slides you can edit, plus a receipt of what was done.</p></article></div>
+</div></section>
+
+<section class="night" id="results"><div class="shell">
+  <div class="section-head"><p class="kicker kicker--light">Results</p><h2>Tested blind, <em>across three model families.</em></h2><p class="lede">In each case, a judge gets two answers without knowing which used orquestrar: the same model with the plugin and the same model without it.</p></div>
+  <div class="scores"><div class="score reveal"><p class="meta">Claude</p><p class="score__big">9<span>/</span>9</p><p class="meta">wins in 9 cases</p><p class="meta" style="margin-top:1.1rem">with · 134 points</p><div class="bar bar--with"><i style="width:93.1%"></i></div><p class="meta">without · 94 points</p><div class="bar bar--without"><i style="width:65.3%"></i></div></div><div class="score reveal"><p class="meta">Codex</p><p class="score__big">8<span>/</span>9</p><p class="meta">wins in 9 cases</p><p class="meta" style="margin-top:1.1rem">with · 101 points</p><div class="bar bar--with"><i style="width:70.1%"></i></div><p class="meta">without · 70 points</p><div class="bar bar--without"><i style="width:48.6%"></i></div></div><div class="score reveal"><p class="meta">Gemini</p><p class="score__big">9<span>/</span>9</p><p class="meta">wins in 9 cases</p><p class="meta" style="margin-top:1.1rem">with · 126 points</p><div class="bar bar--with"><i style="width:87.5%"></i></div><p class="meta">without · 66 points</p><div class="bar bar--without"><i style="width:45.8%"></i></div></div></div>
+  <div class="v04"><span class="meta" style="color:var(--purple-200)">Version 0.4, with repetitions:</span><strong>16/17</strong><span>16 wins and 1 tie in 17 comparisons, no losses.</span></div>
+  <p class="limits">Read with care: the tests measure the agent&#x27;s first reply, not the whole task; the judge is a language model; the 9 cases were written for the project, including two traps (a simple question and a mass email send). Cases, rubric, raw answers and reports are open in the repository (in Portuguese).</p>
+  <div class="actions"><a class="btn btn--light" href="https://github.com/CafeSemCafeina/orquestrar/tree/main/evals">See the test reports</a></div>
+</div></section>
+
+<section id="install"><div class="shell">
+  <div class="section-head"><p class="kicker">Install</p><h2>Pick your app.</h2><p class="lede">It takes a minute.</p></div>
+  <div class="tabs" role="tablist" aria-label="Install"><button class="tab" role="tab" id="tab-claude" aria-controls="panel-claude" aria-selected="true" tabindex="0">Claude</button><button class="tab" role="tab" id="tab-chatgpt" aria-controls="panel-chatgpt" aria-selected="false" tabindex="-1">ChatGPT and Codex (desktop)</button><button class="tab" role="tab" id="tab-claude-code" aria-controls="panel-claude-code" aria-selected="false" tabindex="-1">Claude Code</button><button class="tab" role="tab" id="tab-codex-cli" aria-controls="panel-codex-cli" aria-selected="false" tabindex="-1">Codex CLI</button><button class="tab" role="tab" id="tab-zip" aria-controls="panel-zip" aria-selected="false" tabindex="-1">Just the skill (.zip)</button></div>
+  <div class="tabpanel" role="tabpanel" id="panel-claude" aria-labelledby="tab-claude"><h3>Claude</h3><ol class="steps"><li>Open <span class="path">Customize</span> and go to the <span class="path">Plugins</span> tab.</li><li>Under <span class="path">Personal plugins</span>, click <span class="path">+</span> and choose <span class="path">Add marketplace</span>.</li><li>Choose to add from a repository and paste:<span class="copy"><code>CafeSemCafeina/orquestrar</code><button type="button" data-copy="CafeSemCafeina/orquestrar" data-done="Copied">Copy</button></span></li><li>Install <span class="path">orquestrar</span> from the list.</li></ol><p class="note">Works on Claude web, desktop and Claude Code, which receives your account's plugins. If you had already uploaded the skill's .zip, remove that copy under Customize → Skills so you don't have two.</p></div><div class="tabpanel" role="tabpanel" id="panel-chatgpt" aria-labelledby="tab-chatgpt" hidden><h3>ChatGPT and Codex (desktop)</h3><ol class="steps"><li>Open <span class="path">Plugins</span> in the app (in work mode or in the Codex tab).</li><li>Click <span class="path">Add marketplace</span>.</li><li>Under <span class="path">Source</span>, paste:<span class="copy"><code>CafeSemCafeina/orquestrar</code><button type="button" data-copy="CafeSemCafeina/orquestrar" data-done="Copied">Copy</button></span>Under <span class="path">Git ref</span>, use <code>main</code>. Leave <span class="path">Sparse paths</span> empty.</li><li>Install <span class="path">orquestrar</span> from the plugin list.</li></ol><p class="note">If your ChatGPT app doesn't show the option to add a marketplace, use the “Just the skill” tab: adding your own plugins to chat may depend on your plan.</p></div><div class="tabpanel" role="tabpanel" id="panel-claude-code" aria-labelledby="tab-claude-code" hidden><h3>Claude Code</h3><ol class="steps"><li>In a terminal with Claude Code open, run:<span class="copy"><code>/plugin marketplace add CafeSemCafeina/orquestrar</code><button type="button" data-copy="/plugin marketplace add CafeSemCafeina/orquestrar" data-done="Copied">Copy</button></span></li><li>Then:<span class="copy"><code>/plugin install orquestrar@orquestrar</code><button type="button" data-copy="/plugin install orquestrar@orquestrar" data-done="Copied">Copy</button></span></li></ol><p class="note">To check, run <code>/plugin</code> and look for orquestrar among installed plugins.</p></div><div class="tabpanel" role="tabpanel" id="panel-codex-cli" aria-labelledby="tab-codex-cli" hidden><h3>Codex CLI</h3><ol class="steps"><li>In a terminal, run:<span class="copy"><code>codex plugin marketplace add CafeSemCafeina/orquestrar</code><button type="button" data-copy="codex plugin marketplace add CafeSemCafeina/orquestrar" data-done="Copied">Copy</button></span></li><li>Then:<span class="copy"><code>codex plugin add orquestrar@orquestrar</code><button type="button" data-copy="codex plugin add orquestrar@orquestrar" data-done="Copied">Copy</button></span></li></ol><p class="note">Start a new Codex session for the skill to show up. Tested on Codex CLI 0.169.</p></div><div class="tabpanel" role="tabpanel" id="panel-zip" aria-labelledby="tab-zip" hidden><h3>Just the skill (.zip)</h3><ol class="steps"><li>Download the file:<span class="actions" style="margin-top:.7rem"><a class="btn btn--primary" href="../download/orquestrar-skill.zip" download>Download orquestrar-skill.zip</a></span></li><li>In Claude: <span class="path">Customize → Skills → + → Upload a skill</span>.</li><li>In ChatGPT: <span class="path">Skills → Create → Upload from your computer</span>. ChatGPT's web and desktop skills don't sync: upload to both if you use both.</li></ol><p class="note">This installs only the skill, with no catalog. Updates won't arrive on their own: download again when a new version ships.</p></div>
+</div></section>
+
+<section id="packs"><div class="shell">
+  <div class="section-head"><p class="kicker">Packs by profession</p><h2>The method is general. <em>Every profession has its own way.</em></h2><p class="lede">Packs teach the agent what belongs to each field: the right questions, typical documents, sources to check against, and where it must stop and ask. They&#x27;re built from accounts of people who work in the field.</p></div>
+  <div class="packs"><article class="pack reveal"><span class="status">looking for professionals</span><h3>Legal</h3><p>Deadlines, filings, case-law research, and what is never filed without review.</p></article><article class="pack reveal"><span class="status">looking for professionals</span><h3>Academic research</h3><p>Research questions, literature reviews, citations that actually exist.</p></article><article class="pack reveal"><span class="status">looking for professionals</span><h3>Studying</h3><p>Study plans, notes and review that respect a student&#x27;s real time.</p></article><article class="pack reveal"><span class="status">looking for professionals</span><h3>Personal organization</h3><p>Doable weeks, lists that fit the calendar and priorities that don&#x27;t get lost.</p></article></div>
+  <div class="actions" style="margin-top:0"><a class="btn btn--primary" href="https://github.com/CafeSemCafeina/orquestrar/issues/new?template=relato-profissional.yml">Tell us how you work with AI</a><a class="btn btn--secondary" href="https://github.com/CafeSemCafeina/orquestrar/blob/main/PACKS.md">How a pack is made</a></div>
+  <p class="lede" style="font-size:.95rem">No coding needed. A short account already becomes a test case and shapes the pack for your field.</p>
+</div></section>
+
+<section><div class="shell faq">
+  <div class="section-head"><p class="kicker">Questions</p><h2>Before you install.</h2></div>
+  <details><summary>Is it safe?</summary><p>The plugin is just text: instructions the agent reads. It doesn&#x27;t run programs, install anything on your computer or ask for account access. The agent keeps the same permissions as before, and the skill tells it to stop and ask for your approval before sending, publishing, paying or deleting.</p></details><details><summary>How much does it cost?</summary><p>Nothing. orquestrar is open source under the MIT license. It uses the plan you already have in each app; plugin and skill availability depends on that plan.</p></details><details><summary>Will my assistant get slow or ask too many questions?</summary><p>It shouldn&#x27;t. Simple questions still get direct answers, and the tests include a trap just for that. For bigger tasks, it asks three questions at most, each with a default: you can just say “go ahead”.</p></details><details><summary>Does it work in other languages?</summary><p>The skill is written in Portuguese, but the agent replies in the language you write in.</p></details><details><summary>How do I remove it?</summary><p>Uninstall orquestrar on the same plugins screen in your app. In a terminal: /plugin uninstall orquestrar@orquestrar (Claude Code) or codex plugin remove orquestrar@orquestrar (Codex).</p></details><details><summary>Who makes it?</summary><p>David Fiocchi, from Syntelix, with contributions open to anyone. Real usage reports beat any opinion: that&#x27;s how the method improves.</p></details>
+</div></section>
+</main>
+
+<footer><div class="shell">
+  <div><p class="thesis">No intelligence progresses alone.</p><p style="margin:0">Made by David Fiocchi · <a href="https://syntelix.ia.br">Syntelix</a></p></div>
+  <p style="margin:0"><a href="https://github.com/CafeSemCafeina/orquestrar">GitHub</a> · <a href="https://github.com/CafeSemCafeina/orquestrar/blob/main/CONTRIBUTING.md">Contributing</a> · <a href="https://github.com/CafeSemCafeina/orquestrar/blob/main/LICENSE">MIT license</a></p>
+</div></footer>
+
+<script>
+(function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+  function select(tab) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+  }
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { select(t); });
+    t.addEventListener('keydown', function (e) {
+      var n = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (!n) return;
+      var next = tabs[(i + n + tabs.length) % tabs.length];
+      select(next); next.focus(); e.preventDefault();
+    });
+  });
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    var label = b.textContent;
+    b.addEventListener('click', function () {
+      var text = b.getAttribute('data-copy');
+      function ok() { b.textContent = b.getAttribute('data-done'); b.classList.add('done'); setTimeout(function () { b.textContent = label; b.classList.remove('done'); }, 1800); }
+      if (navigator.clipboard) { navigator.clipboard.writeText(text).then(ok, fallback); } else { fallback(); }
+      function fallback() { var ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); ok(); } catch (e) {} document.body.removeChild(ta); }
+    });
+  });
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('is-in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); } });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  els.forEach(function (e) { io.observe(e); });
+})();
+</script>
+</body>
+</html>
